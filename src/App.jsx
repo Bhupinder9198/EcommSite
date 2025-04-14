@@ -11,6 +11,7 @@ import Cart from "./pages/Cart";
 import Login from "./pages/Login";
 import PlaceOrder from "./pages/PlaceOrder";
 import Orders from "./pages/Orders";
+import Footer from "./Components/Footer";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -29,6 +30,7 @@ function App() {
         <Route path="/placeOrder" element={<PlaceOrder  />} />
         <Route path="/orders" element={<Orders  />} />
       </Routes>
+      <Footer/>
     </div>
   );
 }
